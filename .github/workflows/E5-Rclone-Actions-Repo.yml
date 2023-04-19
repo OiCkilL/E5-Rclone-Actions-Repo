@@ -55,8 +55,6 @@ jobs:
 
       - name: Commit config #提交配置文件
         run: |
-         git config --global user.email "oickill@hotmail.com"
-         git config --global user.name "OiCkilL"
          git add .
          git commit -am "new rclone config"
          git push
